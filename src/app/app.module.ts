@@ -8,6 +8,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { MainComponent } from './main/main.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
+import { MidboxComponent } from './midbox/midbox.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { FooterComponent } from './footer/footer.component';
     MainComponent,
     SidebarComponent,
     FooterComponent,
+    MidboxComponent,
   ],
   imports: [
     BrowserModule

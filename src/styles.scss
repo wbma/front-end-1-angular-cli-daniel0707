@@ -1,12 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 .container{
   height: 100%;
-  width: 60rem;
+  max-width: 60rem;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
 }
 body,html{
-  margin: 0;
   height: 100%;
+  margin: 0;
 }
