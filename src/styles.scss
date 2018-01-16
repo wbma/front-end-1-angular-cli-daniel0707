@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.container{
+  height: 100%;
+  width: 60rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+body,html{
+  margin: 0;
+  height: 100%;
+}
